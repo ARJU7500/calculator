@@ -1,0 +1,54 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.container
+{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.calc
+{
+    width: 300px;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+.btn
+{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-between;
+}
+button
+{
+    padding:15px 20px;
+    font-size: 25px;
+    margin: 6px;
+    border: none;
+}
+button:hover
+{
+    background-color: blue;
+    color: white;
+}
+#display
+{
+    height: 80px;
+    padding: 0px 10px;
+    margin: 5px;
+    line-height: 80px;
+    border-bottom: 2px solid gray;
+}
+#ans
+{
+    width: 110px;
+    color: white;
+    background-color: blue;
+}
+h1{
+  text-align: right ;
+}
